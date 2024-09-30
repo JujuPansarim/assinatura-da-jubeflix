@@ -1,10 +1,10 @@
 :root {
     --branco-principal: #FFFFFF;
     --cinza-secundario: #C0C0C0;
-    --botao-azul: #167BF7;
-    --cor-de-fundo: #000c30;
+    --botao-azul: #49ABD1;
+    --cor-de-fundo: #010510;
     --fonte-principal: 'Inter';
-    --botao-azul-efeito: #11f2a3;
+    --botao-azul-efeito: #88CAE4;
 }
 
 body {
@@ -21,6 +21,9 @@ body {
 }
 
 .principal {
+    background-image: url("img/_Background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
     text-align: center;
     align-items: center;
     text-align: center;
